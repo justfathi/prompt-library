@@ -480,5 +480,40 @@
     "tags": ["hr-policy", "compliance", "handbook", "workplace", "documentation"],
     "description": "Drafts a complete, plain-language HR policy document covering purpose, scope, rules, procedures, and consequences for any standard workplace policy.",
     "file": "prompts/hr/hr-policy-drafter.md"
+  },
+  {
+    "title": "Threat Model Generator",
+    "industry": "cybersecurity",
+    "tags": ["threat-modeling", "stride", "security-design", "appsec", "architecture"],
+    "description": "Generates a STRIDE-based threat model for a described system — identifying assets, trust boundaries, threats, and mitigations in a format usable in design reviews.",
+    "file": "prompts/cybersecurity/threat-model-generator.md"
+  },
+  {
+    "title": "Incident Response Runbook Writer",
+    "industry": "cybersecurity",
+    "tags": ["incident-response", "runbook", "soc", "playbook", "security-operations"],
+    "description": "Generates a step-by-step incident response runbook for a specific threat scenario covering detection, containment, eradication, recovery, and post-incident review.",
+    "file": "prompts/cybersecurity/incident-response-runbook-writer.md"
+  },
+  {
+    "title": "Security Audit Findings Report Writer",
+    "industry": "cybersecurity",
+    "tags": ["security-audit", "reporting", "findings", "executive-summary", "compliance"],
+    "description": "Transforms raw security audit findings into a professional dual-audience report with an executive summary, risk-rated findings table, and remediation roadmap.",
+    "file": "prompts/cybersecurity/security-audit-report-writer.md"
+  },
+  {
+    "title": "Vulnerability Disclosure Email Writer",
+    "industry": "cybersecurity",
+    "tags": ["vulnerability-disclosure", "responsible-disclosure", "bug-bounty", "coordination", "appsec"],
+    "description": "Drafts a professional responsible disclosure communication — either a researcher's initial report to a vendor or a vendor's coordinated disclosure response.",
+    "file": "prompts/cybersecurity/vulnerability-disclosure-email-writer.md"
+  },
+  {
+    "title": "Security Awareness Training Scenario Builder",
+    "industry": "cybersecurity",
+    "tags": ["security-awareness", "phishing-simulation", "training", "social-engineering", "education"],
+    "description": "Generates realistic, role-specific security awareness training scenarios including phishing simulations and social engineering scripts with debrief materials.",
+    "file": "prompts/cybersecurity/security-awareness-scenario-builder.md"
   }
 ]
