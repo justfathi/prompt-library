@@ -38,5 +38,45 @@
     "models": ["claude", "gpt-4", "llama"],
     "description": "Generates a complete hospital discharge summary from admission and progress notes, formatted for the primary care provider handoff.",
     "file": "prompts/healthcare/discharge-summary-generator.md"
+  },
+  {
+    "title": "High-Converting Ad Copy Generator",
+    "industry": "marketing",
+    "tags": ["ads", "copywriting", "conversion", "paid-social", "paid-search"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates 3 ad copy variants using different psychological hooks for Facebook, Instagram, Google, or LinkedIn campaigns.",
+    "file": "prompts/marketing/ad-copy-generator.md"
+  },
+  {
+    "title": "Email Drip Sequence Writer",
+    "industry": "marketing",
+    "tags": ["email", "drip", "automation", "nurture", "copywriting"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Writes a complete multi-email nurture sequence with subject lines, preview text, and body copy designed to move leads to purchase.",
+    "file": "prompts/marketing/email-drip-sequence-writer.md"
+  },
+  {
+    "title": "Brand Voice Extractor & Style Guide Builder",
+    "industry": "marketing",
+    "tags": ["brand", "voice", "tone", "style-guide", "content-strategy"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Analyzes sample brand content and produces a reusable brand voice guide with vocabulary rules, do/don't examples, and tone variations by channel.",
+    "file": "prompts/marketing/brand-voice-extractor.md"
+  },
+  {
+    "title": "SEO Content Brief Writer",
+    "industry": "marketing",
+    "tags": ["seo", "content", "brief", "keyword", "organic"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates a detailed SEO content brief including search intent analysis, page structure, semantic keywords, and competitive differentiation notes.",
+    "file": "prompts/marketing/seo-content-brief-writer.md"
+  },
+  {
+    "title": "Product Launch Announcement Pack",
+    "industry": "marketing",
+    "tags": ["product-launch", "copywriting", "press-release", "social-media", "email"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates a coordinated launch pack — press release, launch email, and platform-specific social posts — all aligned in messaging and tone.",
+    "file": "prompts/marketing/product-launch-announcement.md"
   }
 ]
