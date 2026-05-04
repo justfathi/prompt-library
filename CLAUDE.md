@@ -123,9 +123,7 @@ When adding a prompt for an industry that doesn't exist yet:
 - The Copy button copies only the prompt text (the code block content)
 - `.nojekyll` is required — without it GitHub Pages runs Jekyll and the `.md` files are not served as raw text, breaking the modal fetch
 
-**Do not modify `index.html`** unless you are:
-- Adding a new industry to the `meta` object and badge styles
-- Fixing a clear bug
+**Do not modify `index.html`** unless you are adding a new industry (meta object + badge CSS) or fixing a clear bug. New prompts within existing industries never require touching `index.html` — the frontend reads `index.json` dynamically and new cards appear automatically.
 
 ---
 
