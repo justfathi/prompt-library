@@ -198,5 +198,45 @@
     "models": ["claude", "gpt-4", "llama"],
     "description": "Sets up an AI tutor that guides students to understanding through questions rather than direct answers, building critical thinking and deep retention.",
     "file": "prompts/education/socratic-tutor.md"
+  },
+  {
+    "title": "Contract Clause Explainer",
+    "industry": "legal",
+    "tags": ["contracts", "plain-language", "review", "compliance", "business"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Translates dense contract language into plain English, flagging obligations, risks, and common negotiation points for each clause.",
+    "file": "prompts/legal/contract-clause-explainer.md"
+  },
+  {
+    "title": "NDA Drafter",
+    "industry": "legal",
+    "tags": ["nda", "confidentiality", "contracts", "drafting", "business"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Drafts a complete mutual or one-way Non-Disclosure Agreement from key parameters, covering all standard provisions and remedies.",
+    "file": "prompts/legal/nda-drafter.md"
+  },
+  {
+    "title": "Privacy Policy Generator",
+    "industry": "legal",
+    "tags": ["privacy", "gdpr", "ccpa", "compliance", "data-protection"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Drafts a comprehensive, plain-language privacy policy covering GDPR and CCPA requirements based on what data your product collects and how it's used.",
+    "file": "prompts/legal/privacy-policy-generator.md"
+  },
+  {
+    "title": "Legal Brief & Case Summarizer",
+    "industry": "legal",
+    "tags": ["legal-research", "brief", "case-law", "summary", "litigation"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Summarizes a legal brief or court opinion into a structured analysis covering facts, issues, holding, reasoning, and practical implications.",
+    "file": "prompts/legal/legal-brief-summarizer.md"
+  },
+  {
+    "title": "Terms of Service Red Flag Reviewer",
+    "industry": "legal",
+    "tags": ["terms-of-service", "consumer-rights", "review", "compliance", "platforms"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Reviews a Terms of Service or EULA and flags clauses that are unusually one-sided, strip user rights, or create unexpected liability.",
+    "file": "prompts/legal/terms-of-service-red-flag-reviewer.md"
   }
 ]
