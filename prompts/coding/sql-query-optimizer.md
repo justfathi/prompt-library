@@ -2,7 +2,6 @@
 title: SQL Query Optimizer
 industry: coding
 tags: [sql, performance, database, optimization, query]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

@@ -2,7 +2,6 @@
 title: Personal Financial Plan Builder
 industry: finance
 tags: [personal-finance, planning, budgeting, savings, goals]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

@@ -2,7 +2,6 @@
 title: Privacy Policy Generator
 industry: legal
 tags: [privacy, gdpr, ccpa, compliance, data-protection]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

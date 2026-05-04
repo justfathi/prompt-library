@@ -2,7 +2,6 @@
 title: Code Review Assistant
 industry: coding
 tags: [code-review, quality, bugs, best-practices, security]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

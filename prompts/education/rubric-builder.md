@@ -2,7 +2,6 @@
 title: Rubric Builder
 industry: education
 tags: [assessment, rubric, grading, feedback, evaluation]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

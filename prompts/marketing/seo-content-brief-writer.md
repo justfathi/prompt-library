@@ -2,7 +2,6 @@
 title: SEO Content Brief Writer
 industry: marketing
 tags: [seo, content, brief, keyword, organic]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

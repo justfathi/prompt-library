@@ -2,7 +2,6 @@
 title: Differential Diagnosis Assistant
 industry: healthcare
 tags: [diagnosis, clinical-reasoning, decision-support]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

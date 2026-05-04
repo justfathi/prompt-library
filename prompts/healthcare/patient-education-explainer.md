@@ -2,7 +2,6 @@
 title: Patient Education Explainer
 industry: healthcare
 tags: [patient-education, plain-language, health-literacy]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

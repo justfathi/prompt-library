@@ -2,280 +2,447 @@
   {
     "title": "Clinical SOAP Note Writer",
     "industry": "healthcare",
-    "tags": ["documentation", "soap", "clinical", "notes"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "documentation",
+      "soap",
+      "clinical",
+      "notes"
+    ],
     "description": "Converts raw clinical encounter notes into a fully structured SOAP note with Assessment and Plan sections.",
     "file": "prompts/healthcare/soap-note-writer.md"
   },
   {
     "title": "Differential Diagnosis Assistant",
     "industry": "healthcare",
-    "tags": ["diagnosis", "clinical-reasoning", "decision-support"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "diagnosis",
+      "clinical-reasoning",
+      "decision-support"
+    ],
     "description": "Generates a ranked differential diagnosis list from a clinical presentation, with supporting reasoning and red-flag alerts.",
     "file": "prompts/healthcare/differential-diagnosis-assistant.md"
   },
   {
     "title": "Patient Education Explainer",
     "industry": "healthcare",
-    "tags": ["patient-education", "plain-language", "health-literacy"],
-    "models": ["claude", "gpt-4", "llama"],
-    "description": "Translates a clinical diagnosis, procedure, or medication into clear patient education material at a 6th–8th grade reading level.",
+    "tags": [
+      "patient-education",
+      "plain-language",
+      "health-literacy"
+    ],
+    "description": "Translates a clinical diagnosis, procedure, or medication into clear patient education material at a 6th\u20138th grade reading level.",
     "file": "prompts/healthcare/patient-education-explainer.md"
   },
   {
     "title": "Prior Authorization Letter Writer",
     "industry": "healthcare",
-    "tags": ["prior-auth", "insurance", "documentation", "administrative"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "prior-auth",
+      "insurance",
+      "documentation",
+      "administrative"
+    ],
     "description": "Drafts a compelling, evidence-based prior authorization letter to an insurance payer for medications, procedures, or diagnostic tests.",
     "file": "prompts/healthcare/prior-authorization-letter-writer.md"
   },
   {
     "title": "Hospital Discharge Summary Generator",
     "industry": "healthcare",
-    "tags": ["documentation", "discharge", "inpatient", "handoff"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "documentation",
+      "discharge",
+      "inpatient",
+      "handoff"
+    ],
     "description": "Generates a complete hospital discharge summary from admission and progress notes, formatted for the primary care provider handoff.",
     "file": "prompts/healthcare/discharge-summary-generator.md"
   },
   {
     "title": "High-Converting Ad Copy Generator",
     "industry": "marketing",
-    "tags": ["ads", "copywriting", "conversion", "paid-social", "paid-search"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "ads",
+      "copywriting",
+      "conversion",
+      "paid-social",
+      "paid-search"
+    ],
     "description": "Generates 3 ad copy variants using different psychological hooks for Facebook, Instagram, Google, or LinkedIn campaigns.",
     "file": "prompts/marketing/ad-copy-generator.md"
   },
   {
     "title": "Email Drip Sequence Writer",
     "industry": "marketing",
-    "tags": ["email", "drip", "automation", "nurture", "copywriting"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "email",
+      "drip",
+      "automation",
+      "nurture",
+      "copywriting"
+    ],
     "description": "Writes a complete multi-email nurture sequence with subject lines, preview text, and body copy designed to move leads to purchase.",
     "file": "prompts/marketing/email-drip-sequence-writer.md"
   },
   {
     "title": "Brand Voice Extractor & Style Guide Builder",
     "industry": "marketing",
-    "tags": ["brand", "voice", "tone", "style-guide", "content-strategy"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "brand",
+      "voice",
+      "tone",
+      "style-guide",
+      "content-strategy"
+    ],
     "description": "Analyzes sample brand content and produces a reusable brand voice guide with vocabulary rules, do/don't examples, and tone variations by channel.",
     "file": "prompts/marketing/brand-voice-extractor.md"
   },
   {
     "title": "SEO Content Brief Writer",
     "industry": "marketing",
-    "tags": ["seo", "content", "brief", "keyword", "organic"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "seo",
+      "content",
+      "brief",
+      "keyword",
+      "organic"
+    ],
     "description": "Generates a detailed SEO content brief including search intent analysis, page structure, semantic keywords, and competitive differentiation notes.",
     "file": "prompts/marketing/seo-content-brief-writer.md"
   },
   {
     "title": "Product Launch Announcement Pack",
     "industry": "marketing",
-    "tags": ["product-launch", "copywriting", "press-release", "social-media", "email"],
-    "models": ["claude", "gpt-4", "llama"],
-    "description": "Generates a coordinated launch pack — press release, launch email, and platform-specific social posts — all aligned in messaging and tone.",
+    "tags": [
+      "product-launch",
+      "copywriting",
+      "press-release",
+      "social-media",
+      "email"
+    ],
+    "description": "Generates a coordinated launch pack \u2014 press release, launch email, and platform-specific social posts \u2014 all aligned in messaging and tone.",
     "file": "prompts/marketing/product-launch-announcement.md"
   },
   {
     "title": "Code Review Assistant",
     "industry": "coding",
-    "tags": ["code-review", "quality", "bugs", "best-practices", "security"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "code-review",
+      "quality",
+      "bugs",
+      "best-practices",
+      "security"
+    ],
     "description": "Performs a structured code review flagging bugs, security issues, and style violations with severity ratings and specific fix suggestions.",
     "file": "prompts/coding/code-review-assistant.md"
   },
   {
     "title": "Unit Test Generator",
     "industry": "coding",
-    "tags": ["testing", "unit-tests", "tdd", "quality", "coverage"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "testing",
+      "unit-tests",
+      "tdd",
+      "quality",
+      "coverage"
+    ],
     "description": "Generates a comprehensive unit test suite covering the happy path, edge cases, error conditions, and boundary values in the framework of your choice.",
     "file": "prompts/coding/unit-test-generator.md"
   },
   {
     "title": "Bug Root Cause Explainer",
     "industry": "coding",
-    "tags": ["debugging", "root-cause", "error-analysis", "troubleshooting"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "debugging",
+      "root-cause",
+      "error-analysis",
+      "troubleshooting"
+    ],
     "description": "Analyzes a bug report and code to identify the root cause, explain why it happens, and provide a specific fix with a regression test.",
     "file": "prompts/coding/bug-root-cause-explainer.md"
   },
   {
     "title": "API Documentation Writer",
     "industry": "coding",
-    "tags": ["documentation", "api", "developer-experience", "openapi", "reference"],
-    "models": ["claude", "gpt-4", "llama"],
-    "description": "Generates structured API reference documentation from a route or function — including parameters, response schemas, error codes, and code examples.",
+    "tags": [
+      "documentation",
+      "api",
+      "developer-experience",
+      "openapi",
+      "reference"
+    ],
+    "description": "Generates structured API reference documentation from a route or function \u2014 including parameters, response schemas, error codes, and code examples.",
     "file": "prompts/coding/api-documentation-writer.md"
   },
   {
     "title": "SQL Query Optimizer",
     "industry": "coding",
-    "tags": ["sql", "performance", "database", "optimization", "query"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "sql",
+      "performance",
+      "database",
+      "optimization",
+      "query"
+    ],
     "description": "Analyzes a slow SQL query, identifies performance problems, rewrites it with optimizations, and provides index recommendations with execution plan guidance.",
     "file": "prompts/coding/sql-query-optimizer.md"
   },
   {
     "title": "Investment Thesis Writer",
     "industry": "finance",
-    "tags": ["investing", "equity", "thesis", "research", "analysis"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "investing",
+      "equity",
+      "thesis",
+      "research",
+      "analysis"
+    ],
     "description": "Structures a rigorous investment thesis covering the core opportunity, key assumptions, risk factors, and catalysts for public or private companies.",
     "file": "prompts/finance/investment-thesis-writer.md"
   },
   {
     "title": "Earnings Call Analyzer",
     "industry": "finance",
-    "tags": ["earnings", "analysis", "investor-relations", "equities", "signals"],
-    "models": ["claude", "gpt-4", "llama"],
-    "description": "Extracts key signals from an earnings call transcript — guidance changes, management tone shifts, analyst concerns, and forward-looking statements.",
+    "tags": [
+      "earnings",
+      "analysis",
+      "investor-relations",
+      "equities",
+      "signals"
+    ],
+    "description": "Extracts key signals from an earnings call transcript \u2014 guidance changes, management tone shifts, analyst concerns, and forward-looking statements.",
     "file": "prompts/finance/earnings-call-analyzer.md"
   },
   {
     "title": "Budget Variance Analyst",
     "industry": "finance",
-    "tags": ["budgeting", "variance", "fp-and-a", "reporting", "analysis"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "budgeting",
+      "variance",
+      "fp-and-a",
+      "reporting",
+      "analysis"
+    ],
     "description": "Analyzes actual vs. budget financial data, explains root causes of variances, and produces management commentary ready for finance review.",
     "file": "prompts/finance/budget-variance-analyst.md"
   },
   {
     "title": "Personal Financial Plan Builder",
     "industry": "finance",
-    "tags": ["personal-finance", "planning", "budgeting", "savings", "goals"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "personal-finance",
+      "planning",
+      "budgeting",
+      "savings",
+      "goals"
+    ],
     "description": "Builds a structured, prioritized personal financial plan with debt payoff strategy, savings targets, and a 12-month milestone roadmap.",
     "file": "prompts/finance/personal-financial-plan-builder.md"
   },
   {
     "title": "Financial Report Summarizer",
     "industry": "finance",
-    "tags": ["reporting", "financial-statements", "analysis", "summary", "investor-relations"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "reporting",
+      "financial-statements",
+      "analysis",
+      "summary",
+      "investor-relations"
+    ],
     "description": "Summarizes a 10-K, 10-Q, or annual report into an executive summary highlighting revenue trends, margin changes, cash flow signals, and key risks.",
     "file": "prompts/finance/financial-report-summarizer.md"
   },
   {
     "title": "Lesson Plan Generator",
     "industry": "education",
-    "tags": ["lesson-plan", "curriculum", "teaching", "classroom", "k12"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "lesson-plan",
+      "curriculum",
+      "teaching",
+      "classroom",
+      "k12"
+    ],
     "description": "Generates a detailed, standards-aligned lesson plan with objectives, activities, differentiation strategies, and formative assessment for any subject and grade level.",
     "file": "prompts/education/lesson-plan-generator.md"
   },
   {
     "title": "Rubric Builder",
     "industry": "education",
-    "tags": ["assessment", "rubric", "grading", "feedback", "evaluation"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "assessment",
+      "rubric",
+      "grading",
+      "feedback",
+      "evaluation"
+    ],
     "description": "Builds a detailed criteria-based grading rubric with four performance levels and a student-facing summary for any assignment type.",
     "file": "prompts/education/rubric-builder.md"
   },
   {
     "title": "Student Feedback Writer",
     "industry": "education",
-    "tags": ["feedback", "assessment", "writing", "student-work", "comments"],
-    "models": ["claude", "gpt-4", "llama"],
-    "description": "Writes specific, growth-oriented written feedback on student work — identifying strengths, areas for improvement, and concrete next steps.",
+    "tags": [
+      "feedback",
+      "assessment",
+      "writing",
+      "student-work",
+      "comments"
+    ],
+    "description": "Writes specific, growth-oriented written feedback on student work \u2014 identifying strengths, areas for improvement, and concrete next steps.",
     "file": "prompts/education/student-feedback-writer.md"
   },
   {
     "title": "Quiz & Assessment Question Generator",
     "industry": "education",
-    "tags": ["quiz", "assessment", "questions", "multiple-choice", "bloom"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "quiz",
+      "assessment",
+      "questions",
+      "multiple-choice",
+      "bloom"
+    ],
     "description": "Generates multiple-choice, short-answer, and essay questions at specified Bloom's Taxonomy cognitive levels, with answer keys and distractor rationale.",
     "file": "prompts/education/quiz-question-generator.md"
   },
   {
     "title": "Socratic Tutor",
     "industry": "education",
-    "tags": ["tutoring", "socratic", "critical-thinking", "guided-learning", "comprehension"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "tutoring",
+      "socratic",
+      "critical-thinking",
+      "guided-learning",
+      "comprehension"
+    ],
     "description": "Sets up an AI tutor that guides students to understanding through questions rather than direct answers, building critical thinking and deep retention.",
     "file": "prompts/education/socratic-tutor.md"
   },
   {
     "title": "Contract Clause Explainer",
     "industry": "legal",
-    "tags": ["contracts", "plain-language", "review", "compliance", "business"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "contracts",
+      "plain-language",
+      "review",
+      "compliance",
+      "business"
+    ],
     "description": "Translates dense contract language into plain English, flagging obligations, risks, and common negotiation points for each clause.",
     "file": "prompts/legal/contract-clause-explainer.md"
   },
   {
     "title": "NDA Drafter",
     "industry": "legal",
-    "tags": ["nda", "confidentiality", "contracts", "drafting", "business"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "nda",
+      "confidentiality",
+      "contracts",
+      "drafting",
+      "business"
+    ],
     "description": "Drafts a complete mutual or one-way Non-Disclosure Agreement from key parameters, covering all standard provisions and remedies.",
     "file": "prompts/legal/nda-drafter.md"
   },
   {
     "title": "Privacy Policy Generator",
     "industry": "legal",
-    "tags": ["privacy", "gdpr", "ccpa", "compliance", "data-protection"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "privacy",
+      "gdpr",
+      "ccpa",
+      "compliance",
+      "data-protection"
+    ],
     "description": "Drafts a comprehensive, plain-language privacy policy covering GDPR and CCPA requirements based on what data your product collects and how it's used.",
     "file": "prompts/legal/privacy-policy-generator.md"
   },
   {
     "title": "Legal Brief & Case Summarizer",
     "industry": "legal",
-    "tags": ["legal-research", "brief", "case-law", "summary", "litigation"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "legal-research",
+      "brief",
+      "case-law",
+      "summary",
+      "litigation"
+    ],
     "description": "Summarizes a legal brief or court opinion into a structured analysis covering facts, issues, holding, reasoning, and practical implications.",
     "file": "prompts/legal/legal-brief-summarizer.md"
   },
   {
     "title": "Terms of Service Red Flag Reviewer",
     "industry": "legal",
-    "tags": ["terms-of-service", "consumer-rights", "review", "compliance", "platforms"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "terms-of-service",
+      "consumer-rights",
+      "review",
+      "compliance",
+      "platforms"
+    ],
     "description": "Reviews a Terms of Service or EULA and flags clauses that are unusually one-sided, strip user rights, or create unexpected liability.",
     "file": "prompts/legal/terms-of-service-red-flag-reviewer.md"
   },
   {
     "title": "Property Listing Description Writer",
     "industry": "real-estate",
-    "tags": ["listing", "copywriting", "mls", "marketing", "property"],
-    "models": ["claude", "gpt-4", "llama"],
-    "description": "Writes compelling, MLS-ready property listing descriptions in two variants — leading with interior features or lifestyle — without clichés or filler.",
+    "tags": [
+      "listing",
+      "copywriting",
+      "mls",
+      "marketing",
+      "property"
+    ],
+    "description": "Writes compelling, MLS-ready property listing descriptions in two variants \u2014 leading with interior features or lifestyle \u2014 without clich\u00e9s or filler.",
     "file": "prompts/real-estate/property-listing-writer.md"
   },
   {
     "title": "Comparative Market Analysis (CMA) Summary Writer",
     "industry": "real-estate",
-    "tags": ["cma", "pricing", "market-analysis", "valuation", "buyers-sellers"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "cma",
+      "pricing",
+      "market-analysis",
+      "valuation",
+      "buyers-sellers"
+    ],
     "description": "Transforms raw CMA data into a client-ready narrative with pricing recommendation, comparable sales logic, and market context.",
     "file": "prompts/real-estate/cma-summary-writer.md"
   },
   {
     "title": "Real Estate Offer Letter Drafter",
     "industry": "real-estate",
-    "tags": ["offer", "purchase", "negotiation", "buyers", "contracts"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "offer",
+      "purchase",
+      "negotiation",
+      "buyers",
+      "contracts"
+    ],
     "description": "Drafts a formal offer terms summary and a persuasive personal buyer letter designed to appeal to sellers in competitive markets.",
     "file": "prompts/real-estate/offer-letter-drafter.md"
   },
   {
     "title": "Lease Clause Reviewer",
     "industry": "real-estate",
-    "tags": ["lease", "rental", "tenant-rights", "review", "landlord"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "lease",
+      "rental",
+      "tenant-rights",
+      "review",
+      "landlord"
+    ],
     "description": "Reviews a residential lease and flags unusual or one-sided clauses with plain-language explanations, negotiation suggestions, and enforceability notes.",
     "file": "prompts/real-estate/lease-clause-reviewer.md"
   },
   {
     "title": "Neighborhood Profile Writer",
     "industry": "real-estate",
-    "tags": ["neighborhood", "marketing", "listing", "local-area", "buyers"],
-    "models": ["claude", "gpt-4", "llama"],
+    "tags": [
+      "neighborhood",
+      "marketing",
+      "listing",
+      "local-area",
+      "buyers"
+    ],
     "description": "Writes a compelling, Fair Housing-compliant neighborhood profile covering lifestyle, amenities, transit, and green space for listing pages or buyer guides.",
     "file": "prompts/real-estate/neighborhood-profile-writer.md"
   }

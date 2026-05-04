@@ -2,7 +2,6 @@
 title: Neighborhood Profile Writer
 industry: real-estate
 tags: [neighborhood, marketing, listing, local-area, buyers]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

@@ -2,7 +2,6 @@
 title: Brand Voice Extractor & Style Guide Builder
 industry: marketing
 tags: [brand, voice, tone, style-guide, content-strategy]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

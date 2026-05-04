@@ -2,7 +2,6 @@
 title: Bug Root Cause Explainer
 industry: coding
 tags: [debugging, root-cause, error-analysis, troubleshooting]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

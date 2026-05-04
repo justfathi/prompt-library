@@ -2,7 +2,6 @@
 title: Prior Authorization Letter Writer
 industry: healthcare
 tags: [prior-auth, insurance, documentation, administrative]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

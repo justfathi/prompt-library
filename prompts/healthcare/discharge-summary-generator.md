@@ -2,7 +2,6 @@
 title: Hospital Discharge Summary Generator
 industry: healthcare
 tags: [documentation, discharge, inpatient, handoff]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

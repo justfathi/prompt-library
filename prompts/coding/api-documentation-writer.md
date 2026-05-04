@@ -2,7 +2,6 @@
 title: API Documentation Writer
 industry: coding
 tags: [documentation, api, developer-experience, openapi, reference]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

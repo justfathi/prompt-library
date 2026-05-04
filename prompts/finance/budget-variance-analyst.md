@@ -2,7 +2,6 @@
 title: Budget Variance Analyst
 industry: finance
 tags: [budgeting, variance, fp-and-a, reporting, analysis]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

@@ -2,7 +2,6 @@
 title: Earnings Call Analyzer
 industry: finance
 tags: [earnings, analysis, investor-relations, equities, signals]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

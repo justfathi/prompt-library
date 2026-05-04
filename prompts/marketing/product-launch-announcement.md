@@ -2,7 +2,6 @@
 title: Product Launch Announcement Pack
 industry: marketing
 tags: [product-launch, copywriting, press-release, social-media, email]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

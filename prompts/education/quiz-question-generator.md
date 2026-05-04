@@ -2,7 +2,6 @@
 title: Quiz & Assessment Question Generator
 industry: education
 tags: [quiz, assessment, questions, multiple-choice, bloom]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

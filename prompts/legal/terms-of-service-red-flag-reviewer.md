@@ -2,7 +2,6 @@
 title: Terms of Service Red Flag Reviewer
 industry: legal
 tags: [terms-of-service, consumer-rights, review, compliance, platforms]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

@@ -2,7 +2,6 @@
 title: Property Listing Description Writer
 industry: real-estate
 tags: [listing, copywriting, mls, marketing, property]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

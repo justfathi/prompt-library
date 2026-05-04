@@ -2,7 +2,6 @@
 title: NDA Drafter
 industry: legal
 tags: [nda, confidentiality, contracts, drafting, business]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

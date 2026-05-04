@@ -2,7 +2,6 @@
 title: Student Feedback Writer
 industry: education
 tags: [feedback, assessment, writing, student-work, comments]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

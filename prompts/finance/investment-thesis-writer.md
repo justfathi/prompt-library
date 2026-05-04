@@ -2,7 +2,6 @@
 title: Investment Thesis Writer
 industry: finance
 tags: [investing, equity, thesis, research, analysis]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

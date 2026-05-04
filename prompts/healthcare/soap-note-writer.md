@@ -2,7 +2,6 @@
 title: Clinical SOAP Note Writer
 industry: healthcare
 tags: [documentation, soap, clinical, notes]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

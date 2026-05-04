@@ -2,7 +2,6 @@
 title: Socratic Tutor
 industry: education
 tags: [tutoring, socratic, critical-thinking, guided-learning, comprehension]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

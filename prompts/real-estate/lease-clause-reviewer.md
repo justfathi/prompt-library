@@ -2,7 +2,6 @@
 title: Lease Clause Reviewer
 industry: real-estate
 tags: [lease, rental, tenant-rights, review, landlord]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

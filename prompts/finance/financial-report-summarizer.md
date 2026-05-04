@@ -2,7 +2,6 @@
 title: Financial Report Summarizer
 industry: finance
 tags: [reporting, financial-statements, analysis, summary, investor-relations]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

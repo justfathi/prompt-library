@@ -2,7 +2,6 @@
 title: Legal Brief & Case Summarizer
 industry: legal
 tags: [legal-research, brief, case-law, summary, litigation]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

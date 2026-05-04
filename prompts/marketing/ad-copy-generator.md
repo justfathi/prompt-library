@@ -2,7 +2,6 @@
 title: High-Converting Ad Copy Generator
 industry: marketing
 tags: [ads, copywriting, conversion, paid-social, paid-search]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

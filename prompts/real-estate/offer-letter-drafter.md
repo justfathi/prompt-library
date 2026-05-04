@@ -2,7 +2,6 @@
 title: Real Estate Offer Letter Drafter
 industry: real-estate
 tags: [offer, purchase, negotiation, buyers, contracts]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

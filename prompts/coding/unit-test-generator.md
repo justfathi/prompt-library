@@ -2,7 +2,6 @@
 title: Unit Test Generator
 industry: coding
 tags: [testing, unit-tests, tdd, quality, coverage]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

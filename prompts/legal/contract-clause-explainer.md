@@ -2,7 +2,6 @@
 title: Contract Clause Explainer
 industry: legal
 tags: [contracts, plain-language, review, compliance, business]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

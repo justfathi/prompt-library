@@ -2,7 +2,6 @@
 title: Email Drip Sequence Writer
 industry: marketing
 tags: [email, drip, automation, nurture, copywriting]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

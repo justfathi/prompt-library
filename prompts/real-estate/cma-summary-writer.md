@@ -2,7 +2,6 @@
 title: Comparative Market Analysis (CMA) Summary Writer
 industry: real-estate
 tags: [cma, pricing, market-analysis, valuation, buyers-sellers]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 

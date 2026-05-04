@@ -2,7 +2,6 @@
 title: Lesson Plan Generator
 industry: education
 tags: [lesson-plan, curriculum, teaching, classroom, k12]
-models: [claude, gpt-4, llama]
 contributor: justfathi
 ---
 
