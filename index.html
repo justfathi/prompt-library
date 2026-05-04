@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Prompt Library — Free AI Prompts by Industry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f8f7f4; --white: #ffffff; --text: #1a1a1a; --muted: #6b7280;
+      --light: #9ca3af; --border: #e5e7eb; --accent: #4f46e5;
+      --accent-light: #eef2ff; --accent-hover: #4338ca;
+      --radius: 12px; --radius-sm: 8px;
+      --shadow: 0 1px 3px rgba(0,0,0,0.06);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; line-height: 1.6; min-height: 100vh; }
+    nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 60px; position: sticky; top: 0; z-index: 100; }
+    .logo { font-weight: 800; font-size: 1rem; text-decoration: none; color: var(--text); display: flex; align-items: center; gap: 8px; }
+    .logo-icon { width: 28px; height: 28px; background: var(--accent); border-radius: 7px; display: flex; align-items: center; justify-content: center; color: white; font-size: 14px; }
+    .btn-outline { font-family: inherit; font-size: 13px; font-weight: 600; padding: 7px 14px; border: 1.5px solid var(--border); border-radius: var(--radius-sm); background: transparent; color: var(--muted); cursor: pointer; text-decoration: none; transition: all 0.15s; }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-primary { font-family: inherit; font-size: 13px; font-weight: 600; padding: 7px 16px; border: none; border-radius: var(--radius-sm); background: var(--accent); color: white; cursor: pointer; text-decoration: none; transition: background 0.15s; }
+    .btn-primary:hover { background: var(--accent-hover); }
+    .hero { text-align: center; padding: 4rem 2rem 2.5rem; max-width: 680px; margin: 0 auto; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-light); color: var(--accent); font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 100px; margin-bottom: 1.25rem; }
+    .hero h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 1rem; }
+    .hero h1 span { color: var(--accent); }
+    .hero p { color: var(--muted); font-size: 1rem; max-width: 460px; margin: 0 auto 2rem; }
+    .search-wrap { max-width: 560px; margin: 0 auto; position: relative; }
+    .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--light); pointer-events: none; }
+    .search-wrap input { width: 100%; padding: 13px 16px 13px 42px; font-family: inherit; font-size: 15px; border: 1.5px solid var(--border); border-radius: var(--radius); background: var(--white); color: var(--text); outline: none; box-shadow: var(--shadow); transition: border-color 0.15s, box-shadow 0.15s; }
+    .search-wrap input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(79,70,229,0.12); }
+    .search-wrap input::placeholder { color: var(--light); }
+    .stats { display: flex; justify-content: center; gap: 2.5rem; padding: 1.5rem 2rem 0.5rem; }
+    .stat { text-align: center; }
+    .stat-num { font-size: 1.4rem; font-weight: 800; }
+    .stat-label { font-size: 12px; color: var(--muted); font-weight: 500; }
+    .main { max-width: 1100px; margin: 1.5rem auto 0; padding: 0 2rem 4rem; display: grid; grid-template-columns: 220px 1fr; gap: 2rem; align-items: start; }
+    .sidebar { position: sticky; top: 76px; }
+    .sidebar-section { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; margin-bottom: 1rem; box-shadow: var(--shadow); }
+    .sidebar-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--light); margin-bottom: 0.75rem; }
+    .ind-btn { display: flex; align-items: center; gap: 8px; width: 100%; padding: 8px 10px; border: none; border-radius: var(--radius-sm); background: transparent; color: var(--muted); font-family: inherit; font-size: 13px; font-weight: 500; cursor: pointer; text-align: left; transition: all 0.12s; }
+    .ind-btn:hover { background: var(--bg); color: var(--text); }
+    .ind-btn.active { background: var(--accent-light); color: var(--accent); font-weight: 700; }
+    .ind-count { margin-left: auto; font-size: 11px; background: var(--bg); padding: 1px 7px; border-radius: 100px; color: var(--light); }
+    .ind-btn.active .ind-count { background: rgba(79,70,229,0.12); color: var(--accent); }
+    .contribute-banner { background: var(--accent); border-radius: var(--radius); padding: 1.25rem; color: white; }
+    .contribute-banner h3 { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+    .contribute-banner p { font-size: 12px; opacity: 0.82; margin-bottom: 12px; line-height: 1.5; }
+    .btn-white { display: inline-block; font-family: inherit; font-size: 12px; font-weight: 700; padding: 6px 14px; border: none; border-radius: var(--radius-sm); background: white; color: var(--accent); cursor: pointer; text-decoration: none; }
+    .content-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+    .content-title { font-size: 13px; font-weight: 600; color: var(--muted); }
+    .cards { display: grid; grid-template-columns: 1fr; gap: 10px; }
+    .card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.5rem; cursor: pointer; transition: all 0.15s; box-shadow: var(--shadow); }
+    .card:hover { border-color: var(--accent); box-shadow: var(--shadow-md); transform: translateY(-1px); }
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+    .card-title { font-size: 15px; font-weight: 700; line-height: 1.3; }
+    .card-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 100px; white-space: nowrap; flex-shrink: 0; }
+    .card-desc { font-size: 13px; color: var(--muted); line-height: 1.6; margin-bottom: 10px; }
+    .card-footer { display: flex; align-items: center; justify-content: space-between; }
+    .tags { display: flex; flex-wrap: wrap; gap: 5px; }
+    .tag { font-size: 11px; font-weight: 500; background: var(--bg); border: 1px solid var(--border); color: var(--muted); padding: 2px 8px; border-radius: 100px; }
+    .card-arrow { font-size: 16px; color: var(--light); transition: all 0.15s; }
+    .card:hover .card-arrow { transform: translateX(3px); color: var(--accent); }
+    .badge-healthcare { background: #ecfdf5; color: #059669; }
+    .badge-marketing { background: #fffbeb; color: #d97706; }
+    .badge-coding { background: #f0f9ff; color: #0284c7; }
+    .badge-finance { background: #f0fdfa; color: #0d9488; }
+    .badge-education { background: #f5f3ff; color: #7c3aed; }
+    .badge-legal { background: #fef2f2; color: #dc2626; }
+    .badge-real-estate { background: #fdf2f8; color: #db2777; }
+    .badge-all { background: var(--accent-light); color: var(--accent); }
+    .empty { text-align: center; padding: 4rem 2rem; color: var(--muted); }
+    .empty-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .empty h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .empty p { font-size: 13px; }
+    .empty a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; text-align: center; font-size: 12px; color: var(--light); }
+    footer a { color: var(--accent); text-decoration: none; }
+    @media (max-width: 700px) {
+      .main { grid-template-columns: 1fr; }
+      .sidebar { position: static; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="#">
+    <div class="logo-icon">✦</div>
+    Open Prompt Library
+  </a>
+  <div style="display:flex;gap:10px;align-items:center;">
+    <a href="https://github.com/justfathi/prompt-library" class="btn-outline" target="_blank">GitHub</a>
+    <a href="CONTRIBUTING.md" class="btn-primary" target="_blank">+ Add Prompt</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge">✦ Free &amp; Open Source</div>
+  <h1>AI prompts for<br/><span>every industry</span></h1>
+  <p>Community-curated prompts organized by industry. Copy, use, and contribute. No account needed.</p>
+  <div class="search-wrap">
+    <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="search" placeholder="Search prompts, e.g. 'SOAP notes' or 'ad copy'..." oninput="render()" />
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-num" id="count-total">—</div><div class="stat-label">prompts</div></div>
+  <div class="stat"><div class="stat-num">7</div><div class="stat-label">industries</div></div>
+</div>
+
+<div class="main">
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-title">Browse by industry</div>
+      <div id="filters"></div>
+    </div>
+    <div class="contribute-banner">
+      <h3>Share your prompts</h3>
+      <p>Have a prompt that saves you time? Add it and help the community.</p>
+      <a href="CONTRIBUTING.md" class="btn-white" target="_blank">How to contribute →</a>
+    </div>
+  </aside>
+  <main>
+    <div class="content-header">
+      <div class="content-title" id="result-label">All prompts</div>
+    </div>
+    <div id="cards" class="cards"></div>
+    <div id="empty" class="empty" style="display:none">
+      <div class="empty-icon">🔍</div>
+      <h3>No prompts found</h3>
+      <p>Try a different search, or <a href="CONTRIBUTING.md">add this prompt</a> to the library.</p>
+    </div>
+  </main>
+</div>
+
+<footer>
+  Open Prompt Library · MIT License · Built by <a href="https://github.com/justfathi" target="_blank">justfathi</a> · <a href="https://github.com/justfathi/prompt-library" target="_blank">Contribute on GitHub</a>
+</footer>
+
+<script>
+  let prompts = [], active = 'all';
+
+  const meta = {
+    all: { label: 'All prompts', e: '✦' },
+    healthcare: { label: 'Healthcare', e: '🏥' },
+    marketing: { label: 'Marketing', e: '📣' },
+    coding: { label: 'Coding', e: '💻' },
+    finance: { label: 'Finance', e: '💰' },
+    education: { label: 'Education', e: '📚' },
+    legal: { label: 'Legal', e: '⚖️' },
+    'real-estate': { label: 'Real Estate', e: '🏠' }
+  };
+
+  async function init() {
+    try {
+      const r = await fetch('index.json');
+      prompts = await r.json();
+    } catch(e) {
+      prompts = [
+        { title: "Clinical SOAP Note Writer", industry: "healthcare", tags: ["documentation","soap","clinical"], description: "Generates structured SOAP notes from a raw clinical encounter description.", file: "prompts/healthcare/soap-note-writer.md" },
+        { title: "High-Converting Ad Copy Generator", industry: "marketing", tags: ["ads","copywriting","conversion"], description: "Generates high-converting ad copy for Facebook, Google, or Instagram ads.", file: "prompts/marketing/ad-copy-generator.md" }
+      ];
+    }
+    document.getElementById('count-total').textContent = prompts.length;
+    buildFilters();
+    render();
+  }
+
+  function buildFilters() {
+    const counts = { all: prompts.length };
+    prompts.forEach(p => counts[p.industry] = (counts[p.industry]||0)+1);
+    const keys = ['all', ...Object.keys(counts).filter(k=>k!=='all')];
+    document.getElementById('filters').innerHTML = keys.map(k => {
+      const m = meta[k]||{label:k,e:'•'};
+      return `<button class="ind-btn ${k==='all'?'active':''}" onclick="setFilter('${k}')">
+        <span>${m.e}</span> ${m.label}
+        <span class="ind-count">${counts[k]||0}</span>
+      </button>`;
+    }).join('');
+  }
+
+  function setFilter(ind) {
+    active = ind;
+    document.querySelectorAll('.ind-btn').forEach((b,i) => {
+      const keys = ['all',...Object.keys(meta).filter(k=>k!=='all')];
+      b.classList.toggle('active', keys[i]===ind);
+    });
+    render();
+  }
+
+  function render() {
+    const q = document.getElementById('search').value.toLowerCase();
+    const f = prompts.filter(p =>
+      (active==='all'||p.industry===active) &&
+      (!q || p.title.toLowerCase().includes(q) || p.description.toLowerCase().includes(q) || (p.tags||[]).some(t=>t.includes(q)))
+    );
+    const m = meta[active]||{label:active};
+    document.getElementById('result-label').textContent =
+      active==='all' ? `Showing ${f.length} prompts` : `${m.label} — ${f.length} prompts`;
+
+    if (!f.length) {
+      document.getElementById('cards').innerHTML='';
+      document.getElementById('empty').style.display='block';
+      return;
+    }
+    document.getElementById('empty').style.display='none';
+    document.getElementById('cards').innerHTML = f.map(p => `
+      <div class="card" onclick="window.open('${p.file}','_blank')">
+        <div class="card-top">
+          <div class="card-title">${p.title}</div>
+          <span class="card-badge badge-${p.industry}">${(meta[p.industry]||{label:p.industry}).label}</span>
+        </div>
+        <div class="card-desc">${p.description}</div>
+        <div class="card-footer">
+          <div class="tags">${(p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+          <span class="card-arrow">→</span>
+        </div>
+      </div>`).join('');
+  }
+
+  init();
+</script>
+</body>
+</html>
