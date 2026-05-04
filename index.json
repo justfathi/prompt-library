@@ -445,5 +445,40 @@
     ],
     "description": "Writes a compelling, Fair Housing-compliant neighborhood profile covering lifestyle, amenities, transit, and green space for listing pages or buyer guides.",
     "file": "prompts/real-estate/neighborhood-profile-writer.md"
+  },
+  {
+    "title": "Job Description Writer",
+    "industry": "hr",
+    "tags": ["recruiting", "job-description", "hiring", "bias-reduction", "talent"],
+    "description": "Writes a structured, inclusive job description from role requirements and flags language likely to reduce applicant diversity.",
+    "file": "prompts/hr/job-description-writer.md"
+  },
+  {
+    "title": "Performance Review Generator",
+    "industry": "hr",
+    "tags": ["performance-review", "feedback", "hr", "management", "employee-development"],
+    "description": "Converts a manager's raw bullet-point notes into a complete, balanced performance review with rated sections, examples, and a development plan.",
+    "file": "prompts/hr/performance-review-generator.md"
+  },
+  {
+    "title": "Interview Question Builder",
+    "industry": "hr",
+    "tags": ["interviewing", "hiring", "behavioural", "competency", "recruiting"],
+    "description": "Generates a structured interview guide with behavioural and situational questions, scoring rubrics, and follow-up probes mapped to specific competencies.",
+    "file": "prompts/hr/interview-question-builder.md"
+  },
+  {
+    "title": "Employee Onboarding Plan Builder",
+    "industry": "hr",
+    "tags": ["onboarding", "new-hire", "hr", "management", "retention"],
+    "description": "Builds a detailed 30/60/90-day onboarding plan with week-by-week milestones, stakeholder meetings, and success criteria for a new employee.",
+    "file": "prompts/hr/onboarding-plan-builder.md"
+  },
+  {
+    "title": "HR Policy Drafter",
+    "industry": "hr",
+    "tags": ["hr-policy", "compliance", "handbook", "workplace", "documentation"],
+    "description": "Drafts a complete, plain-language HR policy document covering purpose, scope, rules, procedures, and consequences for any standard workplace policy.",
+    "file": "prompts/hr/hr-policy-drafter.md"
   }
 ]
