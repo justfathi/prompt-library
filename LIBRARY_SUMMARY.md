@@ -2,8 +2,8 @@
 
 Auto-updated snapshot of the current library state. Update this file whenever prompts are added.
 
-**Total prompts:** 35  
-**Industries:** 7  
+**Total prompts:** 45  
+**Industries:** 9  
 **Last updated:** 2026-05-05
 
 ---
@@ -58,6 +58,20 @@ Auto-updated snapshot of the current library state. Update this file whenever pr
 - Real Estate Offer Letter Drafter
 - Lease Clause Reviewer
 - Neighborhood Profile Writer
+
+### HR (5)
+- Job Description Writer
+- Performance Review Generator
+- Interview Question Builder
+- Employee Onboarding Plan Builder
+- HR Policy Drafter
+
+### Cybersecurity (5)
+- Threat Model Generator
+- Incident Response Runbook Writer
+- Security Audit Findings Report Writer
+- Vulnerability Disclosure Email Writer
+- Security Awareness Training Scenario Builder
 
 ---
 
