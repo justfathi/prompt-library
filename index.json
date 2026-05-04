@@ -238,5 +238,45 @@
     "models": ["claude", "gpt-4", "llama"],
     "description": "Reviews a Terms of Service or EULA and flags clauses that are unusually one-sided, strip user rights, or create unexpected liability.",
     "file": "prompts/legal/terms-of-service-red-flag-reviewer.md"
+  },
+  {
+    "title": "Property Listing Description Writer",
+    "industry": "real-estate",
+    "tags": ["listing", "copywriting", "mls", "marketing", "property"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Writes compelling, MLS-ready property listing descriptions in two variants — leading with interior features or lifestyle — without clichés or filler.",
+    "file": "prompts/real-estate/property-listing-writer.md"
+  },
+  {
+    "title": "Comparative Market Analysis (CMA) Summary Writer",
+    "industry": "real-estate",
+    "tags": ["cma", "pricing", "market-analysis", "valuation", "buyers-sellers"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Transforms raw CMA data into a client-ready narrative with pricing recommendation, comparable sales logic, and market context.",
+    "file": "prompts/real-estate/cma-summary-writer.md"
+  },
+  {
+    "title": "Real Estate Offer Letter Drafter",
+    "industry": "real-estate",
+    "tags": ["offer", "purchase", "negotiation", "buyers", "contracts"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Drafts a formal offer terms summary and a persuasive personal buyer letter designed to appeal to sellers in competitive markets.",
+    "file": "prompts/real-estate/offer-letter-drafter.md"
+  },
+  {
+    "title": "Lease Clause Reviewer",
+    "industry": "real-estate",
+    "tags": ["lease", "rental", "tenant-rights", "review", "landlord"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Reviews a residential lease and flags unusual or one-sided clauses with plain-language explanations, negotiation suggestions, and enforceability notes.",
+    "file": "prompts/real-estate/lease-clause-reviewer.md"
+  },
+  {
+    "title": "Neighborhood Profile Writer",
+    "industry": "real-estate",
+    "tags": ["neighborhood", "marketing", "listing", "local-area", "buyers"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Writes a compelling, Fair Housing-compliant neighborhood profile covering lifestyle, amenities, transit, and green space for listing pages or buyer guides.",
+    "file": "prompts/real-estate/neighborhood-profile-writer.md"
   }
 ]
