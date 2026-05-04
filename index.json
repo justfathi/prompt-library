@@ -118,5 +118,45 @@
     "models": ["claude", "gpt-4", "llama"],
     "description": "Analyzes a slow SQL query, identifies performance problems, rewrites it with optimizations, and provides index recommendations with execution plan guidance.",
     "file": "prompts/coding/sql-query-optimizer.md"
+  },
+  {
+    "title": "Investment Thesis Writer",
+    "industry": "finance",
+    "tags": ["investing", "equity", "thesis", "research", "analysis"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Structures a rigorous investment thesis covering the core opportunity, key assumptions, risk factors, and catalysts for public or private companies.",
+    "file": "prompts/finance/investment-thesis-writer.md"
+  },
+  {
+    "title": "Earnings Call Analyzer",
+    "industry": "finance",
+    "tags": ["earnings", "analysis", "investor-relations", "equities", "signals"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Extracts key signals from an earnings call transcript — guidance changes, management tone shifts, analyst concerns, and forward-looking statements.",
+    "file": "prompts/finance/earnings-call-analyzer.md"
+  },
+  {
+    "title": "Budget Variance Analyst",
+    "industry": "finance",
+    "tags": ["budgeting", "variance", "fp-and-a", "reporting", "analysis"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Analyzes actual vs. budget financial data, explains root causes of variances, and produces management commentary ready for finance review.",
+    "file": "prompts/finance/budget-variance-analyst.md"
+  },
+  {
+    "title": "Personal Financial Plan Builder",
+    "industry": "finance",
+    "tags": ["personal-finance", "planning", "budgeting", "savings", "goals"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Builds a structured, prioritized personal financial plan with debt payoff strategy, savings targets, and a 12-month milestone roadmap.",
+    "file": "prompts/finance/personal-financial-plan-builder.md"
+  },
+  {
+    "title": "Financial Report Summarizer",
+    "industry": "finance",
+    "tags": ["reporting", "financial-statements", "analysis", "summary", "investor-relations"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Summarizes a 10-K, 10-Q, or annual report into an executive summary highlighting revenue trends, margin changes, cash flow signals, and key risks.",
+    "file": "prompts/finance/financial-report-summarizer.md"
   }
 ]
