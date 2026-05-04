@@ -158,5 +158,45 @@
     "models": ["claude", "gpt-4", "llama"],
     "description": "Summarizes a 10-K, 10-Q, or annual report into an executive summary highlighting revenue trends, margin changes, cash flow signals, and key risks.",
     "file": "prompts/finance/financial-report-summarizer.md"
+  },
+  {
+    "title": "Lesson Plan Generator",
+    "industry": "education",
+    "tags": ["lesson-plan", "curriculum", "teaching", "classroom", "k12"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates a detailed, standards-aligned lesson plan with objectives, activities, differentiation strategies, and formative assessment for any subject and grade level.",
+    "file": "prompts/education/lesson-plan-generator.md"
+  },
+  {
+    "title": "Rubric Builder",
+    "industry": "education",
+    "tags": ["assessment", "rubric", "grading", "feedback", "evaluation"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Builds a detailed criteria-based grading rubric with four performance levels and a student-facing summary for any assignment type.",
+    "file": "prompts/education/rubric-builder.md"
+  },
+  {
+    "title": "Student Feedback Writer",
+    "industry": "education",
+    "tags": ["feedback", "assessment", "writing", "student-work", "comments"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Writes specific, growth-oriented written feedback on student work — identifying strengths, areas for improvement, and concrete next steps.",
+    "file": "prompts/education/student-feedback-writer.md"
+  },
+  {
+    "title": "Quiz & Assessment Question Generator",
+    "industry": "education",
+    "tags": ["quiz", "assessment", "questions", "multiple-choice", "bloom"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates multiple-choice, short-answer, and essay questions at specified Bloom's Taxonomy cognitive levels, with answer keys and distractor rationale.",
+    "file": "prompts/education/quiz-question-generator.md"
+  },
+  {
+    "title": "Socratic Tutor",
+    "industry": "education",
+    "tags": ["tutoring", "socratic", "critical-thinking", "guided-learning", "comprehension"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Sets up an AI tutor that guides students to understanding through questions rather than direct answers, building critical thinking and deep retention.",
+    "file": "prompts/education/socratic-tutor.md"
   }
 ]
