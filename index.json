@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "title": "Clinical SOAP Note Writer",
+    "industry": "healthcare",
+    "tags": ["documentation", "soap", "clinical", "notes"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Converts raw clinical encounter notes into a fully structured SOAP note with Assessment and Plan sections.",
+    "file": "prompts/healthcare/soap-note-writer.md"
+  },
+  {
+    "title": "Differential Diagnosis Assistant",
+    "industry": "healthcare",
+    "tags": ["diagnosis", "clinical-reasoning", "decision-support"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates a ranked differential diagnosis list from a clinical presentation, with supporting reasoning and red-flag alerts.",
+    "file": "prompts/healthcare/differential-diagnosis-assistant.md"
+  },
+  {
+    "title": "Patient Education Explainer",
+    "industry": "healthcare",
+    "tags": ["patient-education", "plain-language", "health-literacy"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Translates a clinical diagnosis, procedure, or medication into clear patient education material at a 6th–8th grade reading level.",
+    "file": "prompts/healthcare/patient-education-explainer.md"
+  },
+  {
+    "title": "Prior Authorization Letter Writer",
+    "industry": "healthcare",
+    "tags": ["prior-auth", "insurance", "documentation", "administrative"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Drafts a compelling, evidence-based prior authorization letter to an insurance payer for medications, procedures, or diagnostic tests.",
+    "file": "prompts/healthcare/prior-authorization-letter-writer.md"
+  },
+  {
+    "title": "Hospital Discharge Summary Generator",
+    "industry": "healthcare",
+    "tags": ["documentation", "discharge", "inpatient", "handoff"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates a complete hospital discharge summary from admission and progress notes, formatted for the primary care provider handoff.",
+    "file": "prompts/healthcare/discharge-summary-generator.md"
+  }
+]
