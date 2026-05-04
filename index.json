@@ -78,5 +78,45 @@
     "models": ["claude", "gpt-4", "llama"],
     "description": "Generates a coordinated launch pack — press release, launch email, and platform-specific social posts — all aligned in messaging and tone.",
     "file": "prompts/marketing/product-launch-announcement.md"
+  },
+  {
+    "title": "Code Review Assistant",
+    "industry": "coding",
+    "tags": ["code-review", "quality", "bugs", "best-practices", "security"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Performs a structured code review flagging bugs, security issues, and style violations with severity ratings and specific fix suggestions.",
+    "file": "prompts/coding/code-review-assistant.md"
+  },
+  {
+    "title": "Unit Test Generator",
+    "industry": "coding",
+    "tags": ["testing", "unit-tests", "tdd", "quality", "coverage"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates a comprehensive unit test suite covering the happy path, edge cases, error conditions, and boundary values in the framework of your choice.",
+    "file": "prompts/coding/unit-test-generator.md"
+  },
+  {
+    "title": "Bug Root Cause Explainer",
+    "industry": "coding",
+    "tags": ["debugging", "root-cause", "error-analysis", "troubleshooting"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Analyzes a bug report and code to identify the root cause, explain why it happens, and provide a specific fix with a regression test.",
+    "file": "prompts/coding/bug-root-cause-explainer.md"
+  },
+  {
+    "title": "API Documentation Writer",
+    "industry": "coding",
+    "tags": ["documentation", "api", "developer-experience", "openapi", "reference"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Generates structured API reference documentation from a route or function — including parameters, response schemas, error codes, and code examples.",
+    "file": "prompts/coding/api-documentation-writer.md"
+  },
+  {
+    "title": "SQL Query Optimizer",
+    "industry": "coding",
+    "tags": ["sql", "performance", "database", "optimization", "query"],
+    "models": ["claude", "gpt-4", "llama"],
+    "description": "Analyzes a slow SQL query, identifies performance problems, rewrites it with optimizations, and provides index recommendations with execution plan guidance.",
+    "file": "prompts/coding/sql-query-optimizer.md"
   }
 ]
