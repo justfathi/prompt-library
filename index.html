@@ -256,7 +256,7 @@
     }
     document.getElementById('empty').style.display='none';
     document.getElementById('cards').innerHTML = f.map(p => `
-      <div class="card" onclick="openModal(${JSON.stringify(p).replace(/"/g,'&quot;')})">
+      <div class="card" onclick="openModal('${p.file}')">
         <div class="card-top">
           <div class="card-title">${p.title}</div>
           <span class="card-badge badge-${p.industry}">${(meta[p.industry]||{label:p.industry}).label}</span>
@@ -269,7 +269,9 @@
       </div>`).join('');
   }
 
-  async function openModal(p) {
+  async function openModal(file) {
+    const p = prompts.find(x => x.file === file);
+    if (!p) return;
     document.getElementById('modal-title').textContent = p.title;
     document.getElementById('modal-desc').textContent = p.description;
     document.getElementById('modal-tags').innerHTML = (p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('');
@@ -280,7 +282,7 @@
     document.body.style.overflow = 'hidden';
 
     try {
-      const res = await fetch(p.file);
+      const res = await fetch(file);
       const md = await res.text();
       const promptText = extractPrompt(md);
       document.getElementById('modal-prompt').textContent = promptText;
