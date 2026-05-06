@@ -2,9 +2,9 @@
 
 Auto-updated snapshot of the current library state. Update this file whenever prompts are added.
 
-**Total prompts:** 45  
-**Industries:** 9  
-**Last updated:** 2026-05-05
+**Total prompts:** 53  
+**Industries:** 10  
+**Last updated:** 2026-05-06
 
 ---
 
@@ -17,19 +17,21 @@ Auto-updated snapshot of the current library state. Update this file whenever pr
 - Prior Authorization Letter Writer
 - Hospital Discharge Summary Generator
 
-### Marketing (5)
+### Marketing (6)
 - High-Converting Ad Copy Generator
 - Email Drip Sequence Writer
 - Brand Voice Extractor & Style Guide Builder
 - SEO Content Brief Writer
 - Product Launch Announcement Pack
+- Customer Persona Builder
 
-### Coding (5)
+### Coding (6)
 - Code Review Assistant
 - Unit Test Generator
 - Bug Root Cause Explainer
 - API Documentation Writer
 - SQL Query Optimizer
+- Refactoring Plan Builder
 
 ### Finance (5)
 - Investment Thesis Writer
@@ -59,12 +61,13 @@ Auto-updated snapshot of the current library state. Update this file whenever pr
 - Lease Clause Reviewer
 - Neighborhood Profile Writer
 
-### HR (5)
+### HR (6)
 - Job Description Writer
 - Performance Review Generator
 - Interview Question Builder
 - Employee Onboarding Plan Builder
 - HR Policy Drafter
+- Employee Recognition Note Writer
 
 ### Cybersecurity (5)
 - Threat Model Generator
@@ -72,6 +75,13 @@ Auto-updated snapshot of the current library state. Update this file whenever pr
 - Security Audit Findings Report Writer
 - Vulnerability Disclosure Email Writer
 - Security Awareness Training Scenario Builder
+
+### Customer Support (5)
+- Support Ticket Response Drafter
+- Canned Response Macro Generator
+- Escalation Handoff Note Writer
+- Customer Sentiment & Theme Analyzer
+- Knowledge Base Article Writer
 
 ---
 
