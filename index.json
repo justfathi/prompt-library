@@ -550,5 +550,12 @@
     "tags": ["knowledge-base", "help-center", "documentation", "self-service", "deflection"],
     "description": "Writes a scannable help center article with quick answer, prerequisites, atomic steps, screenshot placeholders, common issues, and SEO-ready slug and meta.",
     "file": "prompts/customer-support/knowledge-base-article-writer.md"
+  },
+  {
+    "title": "Refactoring Plan Builder",
+    "industry": "coding",
+    "tags": ["refactoring", "technical-debt", "planning", "safety", "incremental"],
+    "description": "Turns a messy file or module into a sequenced, low-risk refactoring plan where each step is independently safe, testable, and revertible.",
+    "file": "prompts/coding/refactoring-plan-builder.md"
   }
 ]
