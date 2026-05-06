@@ -515,5 +515,40 @@
     "tags": ["security-awareness", "phishing-simulation", "training", "social-engineering", "education"],
     "description": "Generates realistic, role-specific security awareness training scenarios including phishing simulations and social engineering scripts with debrief materials.",
     "file": "prompts/cybersecurity/security-awareness-scenario-builder.md"
+  },
+  {
+    "title": "Support Ticket Response Drafter",
+    "industry": "customer-support",
+    "tags": ["tickets", "response", "customer-service", "tone", "troubleshooting"],
+    "description": "Drafts a complete, on-brand response to a support ticket — acknowledgement, resolution or next step, internal notes, and tone matched to the customer.",
+    "file": "prompts/customer-support/support-ticket-response-drafter.md"
+  },
+  {
+    "title": "Canned Response Macro Generator",
+    "industry": "customer-support",
+    "tags": ["macros", "canned-responses", "templates", "efficiency", "helpdesk"],
+    "description": "Builds a reusable helpdesk macro for a recurring issue with three tone variants, variable placeholders, trigger conditions, and \"do not use\" guardrails.",
+    "file": "prompts/customer-support/canned-response-macro-generator.md"
+  },
+  {
+    "title": "Escalation Handoff Note Writer",
+    "industry": "customer-support",
+    "tags": ["escalation", "handoff", "internal-notes", "tier-2", "communication"],
+    "description": "Compresses a long ticket history into a structured escalation note covering what was tried, what's needed next, customer state, and risk if unresolved.",
+    "file": "prompts/customer-support/escalation-handoff-note-writer.md"
+  },
+  {
+    "title": "Customer Sentiment & Theme Analyzer",
+    "industry": "customer-support",
+    "tags": ["voc", "sentiment", "themes", "feedback", "analytics"],
+    "description": "Turns a batch of tickets, reviews, or NPS comments into a Voice-of-Customer report with ranked themes, verbatim quotes, owners, and recommended actions.",
+    "file": "prompts/customer-support/customer-sentiment-theme-analyzer.md"
+  },
+  {
+    "title": "Knowledge Base Article Writer",
+    "industry": "customer-support",
+    "tags": ["knowledge-base", "help-center", "documentation", "self-service", "deflection"],
+    "description": "Writes a scannable help center article with quick answer, prerequisites, atomic steps, screenshot placeholders, common issues, and SEO-ready slug and meta.",
+    "file": "prompts/customer-support/knowledge-base-article-writer.md"
   }
 ]
