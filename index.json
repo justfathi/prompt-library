@@ -557,5 +557,12 @@
     "tags": ["refactoring", "technical-debt", "planning", "safety", "incremental"],
     "description": "Turns a messy file or module into a sequenced, low-risk refactoring plan where each step is independently safe, testable, and revertible.",
     "file": "prompts/coding/refactoring-plan-builder.md"
+  },
+  {
+    "title": "Customer Persona Builder",
+    "industry": "marketing",
+    "tags": ["persona", "segmentation", "positioning", "messaging", "research"],
+    "description": "Builds an evidence-grounded customer persona from interviews, reviews, and sales notes — with jobs-to-be-done, objections, messaging cues, and \"who this is NOT\".",
+    "file": "prompts/marketing/customer-persona-builder.md"
   }
 ]
