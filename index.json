@@ -564,5 +564,12 @@
     "tags": ["persona", "segmentation", "positioning", "messaging", "research"],
     "description": "Builds an evidence-grounded customer persona from interviews, reviews, and sales notes — with jobs-to-be-done, objections, messaging cues, and \"who this is NOT\".",
     "file": "prompts/marketing/customer-persona-builder.md"
+  },
+  {
+    "title": "Employee Recognition Note Writer",
+    "industry": "hr",
+    "tags": ["recognition", "feedback", "culture", "manager", "employee-engagement"],
+    "description": "Writes specific, sincere recognition in three variants — public, direct message, and HR record — naming behavior, impact, and value with banned-phrase guardrails.",
+    "file": "prompts/hr/employee-recognition-note-writer.md"
   }
 ]
